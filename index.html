@@ -2,38 +2,155 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Golden Studio</title> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Pacifico&family=Signika:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-        <link rel="stylesheet" href="bootstrap-grid.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="vendor\bootstrap-grid.css">
+        <link rel="stylesheet" href="css\style.css">
     </head>
     <body>
-        <header class="splash">
-            <nav class="navbar">
-                <a class="navbar-brand">Golden</a>  
-                <ul class="navbar-nav">
-                    <li>
-                        <a class="nav-link" href="#">HOME</a> 
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#">SERVICES</a> 
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#">PORTFOLIO</a> 
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#">ABOUT</a> 
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#">CONTACT</a> 
-                    </li>
-                </ul>
-            </nav> 
+        <header>
+            <h4>Golden</h4>
+            <nav class="navigation"> 
+                <div class="container">
+                    <ul>
+
+                        <li><a href="#">HOME</a></li>
+                        
+                        <li><a href="#">SERVICES</a></li>
+                        
+                        <li><a href="#">PORTFOLIO</a></li>
+
+                        <li><a href="#">ABOUT</a></li>
+
+                        <li><a href="#">CONTACT</a></li>
+
+                    </ul>
+                    
+                </div>    
+            </nav>
             <div class="splash-inner">
-                <h3 class="page-title">Welcome to our studio!</h3>
-                <h1 class="page-subtitle">Nice to meet  you </h1>
-            </div>
+                <h1 class="page-title">Welcome to our studio!</h1>
+                <h2 class="page-subtitle">Nice to meet you!</h2>
+                <a class="btn btn-one" href="#">tell me more</a>         
+            </div> 
         </header>
+
+        <section class="services">
+            <div class="container">
+                <h2>SERVICES</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3>E-commerce</h3>
+                            <i class="fa-solid fa-basket-shopping"></i>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                        </div>
+                        <div class="col">
+                            <h3>Responive Web</h3>
+                            <i class="fa-solid fa-check-to-slot"></i>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                        </div>
+                        <div class="col">
+                            <h3>Web security</h3> 
+                            <i class="fa-solid fa-lock-keyhole"></i>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                        </div>             
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="name">OUR PORTFOLIO</h2>
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/1.jpg" alt="WEB word">
+                                </div>
+                                <div class="card-body">
+                                    <h4>WEB design</h4>
+                                    <p>design</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/2.jpg" alt="Coca Cola sign">
+                                </div>
+                                <div class="card-body">
+                                    <h4>Coca Cola</h4>
+                                    <p>brandig</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/3.jpg" alt="work at night">
+                                </div>
+                                <div class="card-body">
+                                    <h4>Passion</h4>
+                                    <p>work</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/4.jpg" alt="wooden box">
+                                </div>
+                                <div class="card-body">
+                                    <h4>Wooden Boxes</h4>
+                                    <p>design</p>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/5.jpg" alt="blocks">
+                                </div>
+                                <div class="card-body">
+                                    <h4>Blocks</h4>
+                                    <p>menaging</p>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/6.jpg" alt="Old Bricks">
+                                </div>
+                                <div class="card-body">
+                                    <h4>Old Brick</h4>
+                                    <p>design</p>
+                                </div>
+                            </div>    
+                        </div>       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="row">
+                <h3> © Copyright 2022 XYZstudio</h3>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-google-plus"></i>
+            </div>
+        </section>
+        
+
+
     </body>
 
 </html>
