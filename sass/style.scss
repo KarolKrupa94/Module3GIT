@@ -1,164 +1,252 @@
-/* Variables */
-
-/* Media */
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/* Global */
-
 *, *::before, *::after {
-	box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.7;
-    background-color: #fff;
-}
-
-.container { 
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+    font-family:'Signika', sans-serif;
+  }
+  
+  .container {
     max-width: 1140px;
-    padding: 0 20px;
-}
-
-section {
-    padding: auto;
-}
-
-/*Header */ 
-
-header {
-    background-image: url('https://i.postimg.cc/TPZQyW6Y/header-background.jpg');
-    height: 500px;
-    color: beige;
-    font-family: 'Signika', sans-serif;
-    margin-top: auto;
-    font-size: 30px;
-
-}
-
-header h4 {
-    color: #cab603;
-    font-family: 'Pacifico', cursive;
-    font-size: 24px;
-    margin-left: 100px;
-}
-
-.btn {
- 
-    background: #cab603;
-    border: 1px solid black;
-    border-radius:20px;
-    text-decoration: none;
-    font-size: 30px;
-    color:#fff;
-    height: 150px;
-    width: 200px;
-}
-
-.btn:hover {
-    color:orangered;
-    background-color: #fff;
-    border: 1px solid orangered;
-}
-
-/* Navigation */
-
-.navigation ul {
-    list-style-type: none;
-    margin-top: 0px;
-    padding: 0px;
-    text-align: right;
-    font-size: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .container p {
+    color: black;
+  }
+  
+  .header {
+    background-image: url('https://i.postimg.cc/hjYxtyws/pexels-vitaly-vlasov-1546333.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
     position: relative;
-    
-}  
-
-.navigation li{
-    display: inline-block;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.navigation a:hover {
-    color:#cab603;
-}
-
-.splash-inner {
-    text-align: center;
-
-}
-
-/* Services */
-
-.services {
-    text-align: center;
-}
-
-.services h2 {
-    font-family: 'Signika', sans-serif;
-}
-
-.serives h3 {
-    font-family: 'Signika', sans-serif;
-}
-
-.services p {
-    font-family: 'Inconsolata', monospace;
-}
-
-/*Our Portfolio*/
-
-.card img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .header-box header-center{
+    position: center;
     width: 100%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+  }
+  
+  .header-box  h3, .header-box  h1 {
+    color: #f1b91ed0;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+  }
+  
+  .header-box h3 {
+    font-size: 50px;
+  }
+  
+  .btn {
+    background-color: #f1b91ed0;
+    border-radius: 20%;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 15px;
+  }
+  
+  .navbar {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 100hv;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .navbar .flex {
+    display: flex;
+    position: relative;
+  }
+  
+  .navbar img {
+    position: absolute;
+    width: 100%;
+    height: 100hv;
+    object-fit: cover;
+  }
+  
+  .navbar .navbar-brand {
+    margin: 40px 0px;
+    color: #f1b91ed0;
+    font-size: xx-large;
+    font-weight: 800;
+    position: relative;
+  }
+  
+  
+  
+  .navbar ul {
+    list-style-type: none;
+  }
+  
+  .navbar .nav-link {
+    display: block;
+    padding: 20px 20px;
+    color: #fafafad0;
+    text-decoration: none;
+  }
+  
+  .navbar .collapse  {
+    display: flex;
+  
+  }
+  
+  .title {
+    font-family:'Pacifico', cursive;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .h-title {
+    font-size: 50px;
+    padding: 15px;
+  }
+  
+  .p-title {
+    margin-top: -25px;
+    font-style: 'Signika', sans-serif;
+  }
+  
+  .services .box {
+    margin: 20px 0;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .services .box i {
+    color: whitesmoke;
+    font-size: 45px;
+  }
+  
+  .icon-style {
+    font-size: 80px;
+    color: #f1b91ed0;
+}
+
+  .box p {
+    font-style: 'Pacifico', cursive;
+    opacity: 0.8;
+  }
+  
+  .portfolio {
+    background-color: whitesmoke;
+    margin: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+ 
+  .portfolio-box {
+    border: 1px;
+    border-radius: 5%;
+    margin: 20px;
+  }
+  
+  .portfolio-image img {
+    margin-top: 10px;
     height: 300px;
-    object-fit: cover; }
-
-.portfolio {
-    background-color: #DDC7A0;
-}
-
-.portfolio h2 {
-    font-family: 'Signika', sans-serif;
-
-}
-
-.card-body {
-    text-align: center;
-
-}
-
-.card-body h4 {
-    font-family: 'Signika', sans-serif;
-}
-
-.card-body p {
-    font-family: 'Inconsolata', monospace;
-}
-h2 {
-    text-align: center;
-}
-
-/*Footer*/
-.footer {
-    margin-left:25%;
-}
-
-.footer i {
-    border-radius:50%; 
-    background-color: white;
-    position:relative;
-    border: 1px solid black;
+    width: 300px;
+    object-fit: cover;
+    padding-top: 15px;
     
+  }
+ 
+ 
+  .portfolio-description {
+    margin-top: 0;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    padding-top: 15px;
+    width: 300px;
+
+  }
+  
+  .portfolio-description p {
+    font-style:'Pacifico', cursive;
+    opacity: 0.8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+   
+  .footer {
+    object-fit: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin: 15px auto;
+    padding-top: 20px;
+  }
+  
+  .footer ul {
+    display:inline;
+    align-items: center;
+  }
+
+  .footer ul i {
+    text-align: center;
+    display: inline;
+    margin: 50%;
+    align-items: center;
+  }
+
+  .row-footer {
+    text-align: center;
+    display: inline;
+    margin: 20px 0;
 }
 
-.footer h3 {
-    font-family: 'Signika', sans-serif;
+.row-media .list-inline i {
+    font-size: 35px;
+    color: black;
+    margin: 0 10px;
+    display:inline-flex;
+    text-align: center;
+
+
 }
 
+  
+  
+  @media (max-width: 820px) {
+    .header nav {
+      flex-direction: column;
+    }
+    .header ul.collapse {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      padding-left: 0;
+      flex-direction: column;
+    }
+    .header .header-box {
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, 55%);
+    }
+    .header .navbar-brand {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .icon-box {
+        color: black;
+    }
+  }
